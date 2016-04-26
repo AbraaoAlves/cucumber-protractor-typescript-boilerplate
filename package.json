@@ -1,0 +1,29 @@
+{
+  "name": "cucumber-sample",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Cucumber Sample",
+  "dependencies": {
+    
+  },
+  "devDependencies": {
+    "browser-sync": "^2.11.0",
+    "chai": "^3.4.1",
+    "chai-as-promised": "^5.1.0",
+    "cucumber": "~0.10.2",
+    "phantomjs": "~2.1.7",
+    "protractor": "~3.3.0",
+    "protractor-cucumber-framework": "~0.5.0",
+    "tsd": "~0.6.5",
+    "typescript": "~1.8.10",
+    "ts-node": "~0.7.2",
+    "shelljs": "~0.7.0"
+  },
+  "scripts": {
+    "start": "browser-sync start --server --portSpecify 3000 --no-open --files '*.html' ",
+    "start-webdriver": "webdriver-manager update --standalone && webdriver-manager start",
+    "test:e2e": "protractor protractor.conf.js",
+    "test:e2e:debug": "protractor protractor.conf.js --directConnect --elementExplorer ",
+    "postinstall": "tsd install && webdriver-manager update"
+  }
+}
