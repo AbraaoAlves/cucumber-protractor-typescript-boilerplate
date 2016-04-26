@@ -1,8 +1,5 @@
-# Sample CucumberJs+Protractor+chai-as-promised in Typescript
+## CucumberJs+Protractor in Typescript
 
-
-
-### Run in distincts terminals
 #### Run app
 `npm start`
 
