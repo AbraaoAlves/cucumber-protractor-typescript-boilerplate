@@ -1,6 +1,6 @@
 #language: pt
 
-Funcionalidade: Acessando pela preira vez o site
+Funcionalidade: Acessando pela primeira vez o site
  
 	Observando o comportamento dos clientes em nossos site, 
 	queremos criar empatia logo no primeiro contato

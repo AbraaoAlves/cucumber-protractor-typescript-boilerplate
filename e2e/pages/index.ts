@@ -1,3 +1,4 @@
+
 export class IndexPage {
 	name = "index";
 	url = "/";

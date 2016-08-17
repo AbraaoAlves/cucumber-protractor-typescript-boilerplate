@@ -18,10 +18,10 @@ export = function() {
 	
 	step.Given(/^abro o aplicativo pela primeira vez$/, (done:Callback) =>{
 		page.visit().then(() => done(), (err) => done(err))
-	});
+  });
 	
 	step.Given(/^devo visualizar a tela inicial\.$/, () =>
-		expect(browser.getCurrentUrl()).to.eventually.equals(page.url)
+		expect(browser.getCurrentUrl()).to.equals(page.url)
 	);
 	
 	step.When(/^clicar no menu lateral$/, () =>  page.accessMenu());

@@ -1,0 +1,36 @@
+{
+  "version": "v4",
+  "repo": "borisyankov/DefinitelyTyped",
+  "ref": "master",
+  "path": "e2e/typings",
+  "bundle": "e2e/typings/tsd.d.ts",
+  "installed": {
+    "angular-protractor/angular-protractor.d.ts": {
+      "commit": "5a8fc5ee71701431e4fdbb80c506e3c13f85a9ff"
+    },
+    "selenium-webdriver/selenium-webdriver.d.ts": {
+      "commit": "5a8fc5ee71701431e4fdbb80c506e3c13f85a9ff"
+    },
+    "es6-promise/es6-promise.d.ts": {
+      "commit": "0339496085b27662b5eb357061800506a4a3bd9f"
+    },
+    "chai-as-promised/chai-as-promised.d.ts": {
+      "commit": "8ea42cd8bb11863ed6f242d67c502288ebc45a7b"
+    },
+    "promises-a-plus/promises-a-plus.d.ts": {
+      "commit": "8ea42cd8bb11863ed6f242d67c502288ebc45a7b"
+    },
+    "assertion-error/assertion-error.d.ts": {
+      "commit": "8ea42cd8bb11863ed6f242d67c502288ebc45a7b"
+    },
+    "chai/chai.d.ts": {
+      "commit": "8ea42cd8bb11863ed6f242d67c502288ebc45a7b"
+    },
+    "node/node.d.ts": {
+      "commit": "8ea42cd8bb11863ed6f242d67c502288ebc45a7b"
+    },
+    "cucumber/cucumber.d.ts": {
+      "commit": "3a056e386499bf5a1293cfef8af517c777d4c9a4"
+    }
+  }
+}
