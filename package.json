@@ -23,7 +23,7 @@
     "concurrently": "~2.2.0"
   },
   "scripts": {
-    "start": "concurrently \"npm run browasersync:start\"  \"npm run start-webdriver\"",
+    "start": "concurrently \"npm run browsersync:start\"  \"npm run start-webdriver\"",
     "browsersync:start":"browser-sync start --server --portSpecify 3000 --no-open --files '*.html' ",
     "start-webdriver": "webdriver-manager update --standalone && webdriver-manager start",
     "test:e2e": "protractor protractor.conf.js",
